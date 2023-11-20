@@ -32,7 +32,7 @@ cd book_service
 ```
 
 ### 2. Configure Database URL
-Edit the app/database.py file to set your PostgreSQL database URL:
+Edit the app/database/database.py file to set your PostgreSQL database URL:
 
 ```bash
 DATABASE_URL = "postgresql://user:password@postgresserver/db"
